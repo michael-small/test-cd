@@ -3,7 +3,7 @@ import { AfterContentInit, Component, ContentChild, ElementRef, ViewChild } from
 @Component({
   selector: 'app-test-area',
   template: `
-    <button (click)="toggleTestArea(100, 100)">Show test area</button>
+    <button (click)="toggleTestArea(1000, 250)">Show test area</button>
 
     @if (showTestArea) {
       <p>

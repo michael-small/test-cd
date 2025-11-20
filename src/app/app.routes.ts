@@ -8,12 +8,14 @@ import { PlainSignalDefaultCD } from './defaultCD/plain/signal/plain-signal.comp
 import { PlainObservableOnpushCD } from './onPushCD/plain/observable/plain-observable.component';
 import { PlainSignalOnpushCD } from './onPushCD/plain/signal/plain-signal.component';
 import { Stats100Ms100ClicksComponent } from './data/100-ms-100-clicks/stats-100-ms-100-clicks';
+import { Stats250Ms1000Clicks } from './data/250-ms-1000-clicks/_template_/stats-250-ms-1000-clicks';
 
 export const routes: Routes = [
   {
     path: '',
     children: [
       { path: 'stats-100-clicks-100ms-per', component: Stats100Ms100ClicksComponent },
+      {path: 'stats-1000-clicks-250ms-per', component: Stats250Ms1000Clicks},
       {
         title: 'Derived Observable Default CD',
         path: 'derived-observable-default-cd',

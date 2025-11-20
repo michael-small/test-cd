@@ -9,7 +9,8 @@ import { filter, map } from 'rxjs';
     <div id="links">
       <div id="stats">
         <p>Stats</p>
-        <a routerLink="stats-100-clicks-100ms-per">Stats 100 Clicks 100ms Per</a>
+        <p><a routerLink="stats-100-clicks-100ms-per">Stats 100 Clicks 100ms Per</a></p>
+        <p><a routerLink="stats-1000-clicks-250ms-per">Stats 1000 Clicks 250ms Per</a></p>
       </div>
 
       @for (route of routes; track $index) {
