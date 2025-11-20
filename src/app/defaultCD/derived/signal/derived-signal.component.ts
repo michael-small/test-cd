@@ -6,7 +6,7 @@ import { TestArea } from '../../../pieces/test-area..component';
   imports: [TestArea],
   template: `
       <app-test-area>
-      {{derviedSignal()}}
+      <span #txt>derived-signal-default-cd: {{derviedSignal()}}</span>
     </app-test-area>
   `,
 })

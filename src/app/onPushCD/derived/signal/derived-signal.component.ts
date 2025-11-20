@@ -6,7 +6,7 @@ import { TestArea } from '../../../pieces/test-area..component';
   imports: [TestArea],
   template: `
       <app-test-area>
-      {{derviedSignal()}}
+      <span #txt>derived-signal-onpush-CD: {{derviedSignal()}}</span>
     </app-test-area>
   `,
   changeDetection: ChangeDetectionStrategy.OnPush

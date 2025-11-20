@@ -1,10 +1,10 @@
-import { Component, ElementRef, ViewChild } from '@angular/core';
+import { Component, ContentChild, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-test-area',
   template: `
     <button (click)="toggleTestArea(100, 100)">Show test area</button>
-    
+
     @if (showTestArea) {
       <p>
         <ng-content />
@@ -16,9 +16,10 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 })
 export class TestArea {
   @ViewChild('testButton') btn: ElementRef | undefined;
+  @ContentChild('txt') txt: ElementRef | undefined;
 
   showTestArea = false;
-  
+
   toggleTestArea(clicks: number, perClickDelay: number) {
     this.showTestArea = !this.showTestArea;
 
@@ -27,7 +28,7 @@ export class TestArea {
       let intervalId = setInterval(() => {
         count++;
 
-        if(this.btn) this.btn.nativeElement.click();
+        if (this.btn) this.btn.nativeElement.click();
 
         if (count >= clicks) {
           clearInterval(intervalId);
@@ -35,6 +36,13 @@ export class TestArea {
         }
       }, perClickDelay);
     }, 1000);
+  }
+
+  async ngAfterContentInit() {
+    if (this.txt) {
+      await navigator.clipboard.writeText(this.txt.nativeElement.textContent.split(':')[0]);
+      console.log(this.txt.nativeElement.textContent.split(':')[0])
+    }
   }
 
   btnFn() {}

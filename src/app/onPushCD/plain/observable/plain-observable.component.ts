@@ -8,7 +8,7 @@ import { TestArea } from '../../../pieces/test-area..component';
   imports: [TestArea, AsyncPipe],
   template: `
       <app-test-area>
-      {{plainObservable$ | async}}
+      <span #txt>plain-observable-onpush-CD: {{plainObservable$ | async}}</span>
     </app-test-area>
   `,
   changeDetection: ChangeDetectionStrategy.OnPush

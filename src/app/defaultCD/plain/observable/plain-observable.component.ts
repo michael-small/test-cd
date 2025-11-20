@@ -8,7 +8,7 @@ import { TestArea } from '../../../pieces/test-area..component';
   imports: [TestArea, AsyncPipe],
   template: `
       <app-test-area>
-      {{plainObservable$ | async}}
+      <span #txt>plain-observable-default-cd: {{plainObservable$ | async}}</span>
     </app-test-area>
   `,
 })

@@ -6,7 +6,7 @@ import { TestArea } from '../../../pieces/test-area..component';
   imports: [TestArea],
   template: `
       <app-test-area>
-      {{plainSignal()}}
+      <span #txt>plain-signal-default-CD: {{plainSignal()}}</span>
     </app-test-area>
   `,
 })

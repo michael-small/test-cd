@@ -1,26 +1,40 @@
-import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
-import { Stats } from './pieces/stats.component';
+import {  Component, inject } from '@angular/core';
 import { NavigationEnd, Router, RouterLink, RouterOutlet } from '@angular/router';
 import { AsyncPipe, JsonPipe } from '@angular/common';
 import { filter, map } from 'rxjs';
-import { Stats100Clicks100msPer } from './data/100-clicks-100ms-per/stats-100-clicks-100ms-per.component';
 
 @Component({
   selector: 'app-root',
   template: `
-    @for (route of routes; track $index) {
+    <div id="links">
+      <div id="stats">
+        <p>Stats</p>
+        <a routerLink="stats-100-clicks-100ms-per">Stats 100 Clicks 100ms Per</a>
+      </div>
+
+      @for (route of routes; track $index) {
       <p>
         <a [routerLink]="route.path">{{ route.name }}</a>
       </p>
-    }
-    <a routerLink="stats-100-clicks-100ms-per">Stats 100 Clicks 100ms Per</a>
+      }
+    </div>
 
-    <h2>{{ url$ | async }}</h2>
-
-    <router-outlet />
+    <section id="content">
+      <h2>{{ url$ | async }}</h2>
+      <router-outlet />
+    </section>
   `,
-  imports: [Stats100Clicks100msPer, RouterOutlet, RouterLink, AsyncPipe, JsonPipe],
+  imports: [RouterOutlet, RouterLink, AsyncPipe, JsonPipe],
   // changeDetection: ChangeDetectionStrategy.OnPush,
+  styles: `
+  :host {
+    display: flex;
+    gap: 100px;
+  }
+    #stats {
+      margin-bottom: 50px
+    }
+  `,
 })
 export class App {
   router = inject(Router);

@@ -11,7 +11,7 @@ import { JsonPipe } from '@angular/common';
   imports: [JsonPipe]
 })
 export class TalliedData {
-  data = input.required<{cdProfile: ProfileJson, primitive: 'async' | 'signals', changeDetection: 'OnPush' | 'Default', derived: boolean}>()
+  data = input.required<{cdProfile: ProfileJson | undefined, primitive: 'async' | 'signals', changeDetection: 'OnPush' | 'Default', derived: boolean}>()
 
   talliedData = computed(() => {
     const data = this.data();
