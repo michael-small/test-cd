@@ -1,3 +1,11 @@
+# Testing Change Detection
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/michael-small/test-cd)
+
+The app is default change detection. However, select components are OnPush.
+
+This experiment benchmarks Angular Devtools Profiler runs of various scenarios for signals or observables in OnPush or Default change detection components. Scenarios such as 100 clicks done 100ms apart.
+
 # TestCd
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.2.2.

@@ -14,8 +14,6 @@ import { Tally } from '../../pieces/tally.type';
   selector: 'app-stats-100-ms-100-clicks',
   template: `
     <section>
-      <em>TODO template</em>
-
       <p>Default CD</p>
       <app-tallied-data [data]="defaultDerivedObservable" />
       <app-tallied-data [data]="defaultDerivedSignal" />
