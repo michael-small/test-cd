@@ -1,3 +1,3 @@
-import { ProfileJson } from "../../../../pieces/profiler.type";
+import { ProfileJson } from '../../../../pieces/profiler.type';
 
-export const SignalsPlainDefaultsProfile: ProfileJson | undefined = undefined; 
+export const SignalsPlainDefaultsProfile: ProfileJson | undefined = undefined;

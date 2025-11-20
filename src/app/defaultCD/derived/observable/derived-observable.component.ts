@@ -7,8 +7,8 @@ import { map, of } from 'rxjs';
   selector: 'app-derived-observable-default-CD',
   imports: [TestArea, AsyncPipe],
   template: `
-      <app-test-area>
-      <span #txt>derived-observable-default-cd: {{derivedObservable$ | async}}</span>
+    <app-test-area>
+      <span #txt>derived-observable-default-cd: {{ derivedObservable$ | async }}</span>
     </app-test-area>
   `,
 })

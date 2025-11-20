@@ -7,11 +7,11 @@ import { TestArea } from '../../../pieces/test-area..component';
   selector: 'app-plain-observable-default-CD',
   imports: [TestArea, AsyncPipe],
   template: `
-      <app-test-area>
-      <span #txt>plain-observable-default-cd: {{plainObservable$ | async}}</span>
+    <app-test-area>
+      <span #txt>plain-observable-default-cd: {{ plainObservable$ | async }}</span>
     </app-test-area>
   `,
 })
 export class PlainObservableDefaultCD {
-    plainObservable$ = of('test');
+  plainObservable$ = of('test');
 }

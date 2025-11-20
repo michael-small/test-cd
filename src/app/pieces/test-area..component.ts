@@ -41,7 +41,7 @@ export class TestArea {
   async ngAfterContentInit() {
     if (this.txt) {
       await navigator.clipboard.writeText(this.txt.nativeElement.textContent.split(':')[0]);
-      console.log(this.txt.nativeElement.textContent.split(':')[0])
+      console.log(this.txt.nativeElement.textContent.split(':')[0]);
     }
   }
 

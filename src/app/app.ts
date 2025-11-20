@@ -1,4 +1,4 @@
-import {  Component, inject } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { NavigationEnd, Router, RouterLink, RouterOutlet } from '@angular/router';
 import { AsyncPipe, JsonPipe } from '@angular/common';
 import { filter, map } from 'rxjs';
@@ -13,9 +13,9 @@ import { filter, map } from 'rxjs';
       </div>
 
       @for (route of routes; track $index) {
-      <p>
-        <a [routerLink]="route.path">{{ route.name }}</a>
-      </p>
+        <p>
+          <a [routerLink]="route.path">{{ route.name }}</a>
+        </p>
       }
     </div>
 
@@ -27,12 +27,12 @@ import { filter, map } from 'rxjs';
   imports: [RouterOutlet, RouterLink, AsyncPipe, JsonPipe],
   // changeDetection: ChangeDetectionStrategy.OnPush,
   styles: `
-  :host {
-    display: flex;
-    gap: 100px;
-  }
+    :host {
+      display: flex;
+      gap: 100px;
+    }
     #stats {
-      margin-bottom: 50px
+      margin-bottom: 50px;
     }
   `,
 })
@@ -41,7 +41,7 @@ export class App {
 
   url$ = this.router.events.pipe(
     filter((event) => event instanceof NavigationEnd),
-    map((event: NavigationEnd) => event.urlAfterRedirects.replace('/', ''))
+    map((event: NavigationEnd) => event.urlAfterRedirects.replace('/', '')),
   );
 
   routes = [

@@ -4,7 +4,7 @@ export function tallyProfiler(
   cdProfile: ProfileJson | undefined,
   primitive: 'async' | 'signals',
   changeDetection: 'OnPush' | 'Default',
-  derived: boolean
+  derived: boolean,
 ) {
   const profileTotal = cdProfile?.buffer
     .map((profile) => profile.directives.map((dir) => dir.directives.map((d) => d.changeDetection)))
@@ -16,6 +16,12 @@ export function tallyProfiler(
   // } samples for ${changeDetection} CD` as const;
 
   // console.log(result);
-  
-  return {primitive, derived: derived ? 'derived' : 'plain', changeDetection, time: profileTotal?.toFixed(2) ?? 'missing data', samples: cdProfile?.buffer.length};
+
+  return {
+    primitive,
+    derived: derived ? 'derived' : 'plain',
+    changeDetection,
+    time: profileTotal?.toFixed(2) ?? 'missing data',
+    samples: cdProfile?.buffer.length,
+  };
 }

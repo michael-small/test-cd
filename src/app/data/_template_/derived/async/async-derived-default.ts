@@ -1,3 +1,3 @@
-import { ProfileJson } from "../../../../pieces/profiler.type";
+import { ProfileJson } from '../../../../pieces/profiler.type';
 
-export const AsyncDerivedDefaultsProfile: ProfileJson | undefined = undefined; 
+export const AsyncDerivedDefaultsProfile: ProfileJson | undefined = undefined;

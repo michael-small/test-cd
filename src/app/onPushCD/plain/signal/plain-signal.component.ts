@@ -5,12 +5,12 @@ import { TestArea } from '../../../pieces/test-area..component';
   selector: 'app-plain-signal-onpush-CD',
   imports: [TestArea],
   template: `
-      <app-test-area>
-      <span #txt>plain-signal-onpush-CD: {{plainSignal()}}</span>
+    <app-test-area>
+      <span #txt>plain-signal-onpush-CD: {{ plainSignal() }}</span>
     </app-test-area>
   `,
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class PlainSignalOnpushCD {
-    plainSignal = signal('test');
+  plainSignal = signal('test');
 }

@@ -7,11 +7,11 @@ import { TestArea } from '../../../pieces/test-area..component';
   selector: 'app-derived-observable-onpush-CD',
   imports: [TestArea, AsyncPipe],
   template: `
-      <app-test-area>
-      <span #txt>derived-observable-onpush-CD: {{derivedObservable$ | async}}</span>
+    <app-test-area>
+      <span #txt>derived-observable-onpush-CD: {{ derivedObservable$ | async }}</span>
     </app-test-area>
   `,
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class DerivedObservableOnpushCD {
   plainObservable$ = of('test');
