@@ -1,6 +1,6 @@
 import { Component, computed, effect, input } from '@angular/core';
 import { ProfileJson } from './profiler.type';
-import { tallyProfiler } from './tally-profile';
+import { tallyProfilerDirectives } from './tally-profile';
 import { JsonPipe } from '@angular/common';
 
 @Component({
@@ -18,6 +18,6 @@ export class TalliedData {
 
   readonly talliedData = computed(() => {
     const data = this.data();
-    return tallyProfiler(data.cdProfile, data.primitive, data.changeDetection, data.derived);
+    return tallyProfilerDirectives(data.cdProfile, data.primitive, data.changeDetection, data.derived);
   });
 }
