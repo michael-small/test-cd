@@ -12,5 +12,5 @@ import { TestArea } from '../../../pieces/test-area..component';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class PlainSignalOnpushCD {
-  plainSignal = signal('test');
+  readonly plainSignal = signal('test');
 }

@@ -9,13 +9,13 @@ export type ProfileBuffer = {
   directives: BufferDirective[];
 };
 
-export interface BufferDirective {
+export type BufferDirective = {
   children: any[];
   directives: DirectiveDirective[];
   type: Type;
 }
 
-export interface DirectiveDirective {
+export type DirectiveDirective = {
   isElement: boolean;
   isComponent: boolean;
   lifecycle: Lifecycle;
@@ -24,11 +24,11 @@ export interface DirectiveDirective {
   changeDetection: number;
 }
 
-export interface Lifecycle {}
+export type Lifecycle = {}
 
 export type Name = '_App';
 
-export interface Outputs {
+export type Outputs = {
   [key: string]: number;
 }
 

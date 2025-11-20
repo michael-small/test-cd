@@ -9,14 +9,14 @@ import { JsonPipe } from '@angular/common';
   imports: [JsonPipe],
 })
 export class TalliedData {
-  data = input.required<{
+  readonly data = input.required<{
     cdProfile: ProfileJson | undefined;
     primitive: 'async' | 'signals';
     changeDetection: 'OnPush' | 'Default';
     derived: boolean;
   }>();
 
-  talliedData = computed(() => {
+  readonly talliedData = computed(() => {
     const data = this.data();
     return tallyProfiler(data.cdProfile, data.primitive, data.changeDetection, data.derived);
   });

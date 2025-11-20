@@ -11,5 +11,5 @@ import { TestArea } from '../../../pieces/test-area..component';
   `,
 })
 export class PlainSignalDefaultCD {
-  plainSignal = signal('test');
+  readonly plainSignal = signal('test');
 }

@@ -1,4 +1,4 @@
-import { Component, ContentChild, ElementRef, ViewChild } from '@angular/core';
+import { AfterContentInit, Component, ContentChild, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-test-area',
@@ -9,12 +9,12 @@ import { Component, ContentChild, ElementRef, ViewChild } from '@angular/core';
       <p>
         <ng-content />
       </p>
-      <button (click)="btnFn()" #testButton>Button</button>
+      <button #testButton (click)="btnFn()">Button</button>
     }
   `,
   styles: ``,
 })
-export class TestArea {
+export class TestArea implements AfterContentInit {
   @ViewChild('testButton') btn: ElementRef | undefined;
   @ContentChild('txt') txt: ElementRef | undefined;
 
@@ -25,10 +25,10 @@ export class TestArea {
 
     let count = 0;
     setTimeout(() => {
-      let intervalId = setInterval(() => {
+      const intervalId = setInterval(() => {
         count++;
 
-        if (this.btn) this.btn.nativeElement.click();
+        if (this.btn) {this.btn.nativeElement.click();}
 
         if (count >= clicks) {
           clearInterval(intervalId);

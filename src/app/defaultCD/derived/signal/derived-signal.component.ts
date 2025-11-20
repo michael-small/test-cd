@@ -11,6 +11,6 @@ import { TestArea } from '../../../pieces/test-area..component';
   `,
 })
 export class DerivedSignalDefaultCD {
-  plainSignal = signal('test');
-  derviedSignal = computed(() => this.plainSignal() + ' derived');
+  readonly plainSignal = signal('test');
+  readonly derviedSignal = computed(() => this.plainSignal() + ' derived');
 }
