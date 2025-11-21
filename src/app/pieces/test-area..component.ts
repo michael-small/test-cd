@@ -21,7 +21,7 @@ export class TestArea implements AfterContentInit {
 
   showTestArea = false;
 
-  clicks = 250
+  clicks = 1000
   perClickDelay = 250
 
   toggleTestArea(clicks: number, perClickDelay: number) {

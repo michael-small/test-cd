@@ -14,6 +14,7 @@ import { DerivedSignalDefaultCDAdvanced } from './more-complex/defaultCD/derived
 import { DerivedObservableOnpushCDAdvanced } from './more-complex/onPushCD/derived/observable/derived-observable.component';
 import { DerivedSignalOnpushCDAdvanced } from './more-complex/onPushCD/derived/signal/derived-signal.component';
 import { Stats250ms250ClicksComplex } from './data/more_complex_250ms-250-clicks/stats-250ms-250-clicks-complex';
+import { StatsMoreComplex250ms1000Clicks } from './data/more_complex_250ms-1000-clicks/stats-template';
 
 export const routes: Routes = [
   {
@@ -22,6 +23,7 @@ export const routes: Routes = [
       { path: 'stats-100-clicks-100ms-per', component: Stats100Ms100ClicksComponent },
       {path: 'stats-1000-clicks-250ms-per', component: Stats250Ms1000Clicks},
       {path: 'stats-250ms-250-clicks-complex', component: Stats250ms250ClicksComplex},
+      {path: 'stats-1000-clicks-250ms-complex', component: StatsMoreComplex250ms1000Clicks},
       // Basic
       {
         title: 'Derived Observable Default CD',
