@@ -3,7 +3,8 @@ import { AfterContentInit, Component, ContentChild, ElementRef, ViewChild } from
 @Component({
   selector: 'app-test-area',
   template: `
-    <button (click)="toggleTestArea(1000, 250)">Show test area</button>
+    <button (click)="toggleTestArea(clicks, perClickDelay)">Show test area</button>
+    <p>{{clicks}} clicks with {{perClickDelay}} ms delay</p>
 
     @if (showTestArea) {
       <p>
@@ -19,6 +20,9 @@ export class TestArea implements AfterContentInit {
   @ContentChild('txt') txt: ElementRef | undefined;
 
   showTestArea = false;
+
+  clicks = 250
+  perClickDelay = 250
 
   toggleTestArea(clicks: number, perClickDelay: number) {
     this.showTestArea = !this.showTestArea;

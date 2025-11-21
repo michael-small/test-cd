@@ -1,5 +1,5 @@
 import { Component, inject } from '@angular/core';
-import { NavigationEnd, Router, RouterLink, RouterOutlet } from '@angular/router';
+import { NavigationEnd, Router, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { AsyncPipe, JsonPipe } from '@angular/common';
 import { filter, map } from 'rxjs';
 
@@ -15,7 +15,7 @@ import { filter, map } from 'rxjs';
 
       @for (route of routes; track $index) {
         <p>
-          <a [routerLink]="route.path">{{ route.name }}</a>
+          <a routerLinkActive="active" [routerLink]="route.path">{{ route.name }}</a>
         </p>
       }
     </div>
@@ -25,7 +25,7 @@ import { filter, map } from 'rxjs';
       <router-outlet />
     </section>
   `,
-  imports: [RouterOutlet, RouterLink, AsyncPipe, JsonPipe],
+  imports: [RouterOutlet, RouterLink, AsyncPipe, JsonPipe, RouterLinkActive],
   // changeDetection: ChangeDetectionStrategy.OnPush,
   styles: `
     :host {
@@ -34,6 +34,9 @@ import { filter, map } from 'rxjs';
     }
     #stats {
       margin-bottom: 50px;
+    }
+    .active {
+      font-size: 30px;
     }
   `,
 })
@@ -54,5 +57,9 @@ export class App {
     { path: 'plain-signal-default-cd', name: 'Plain Signal Default CD' },
     { path: 'plain-observable-onpush-cd', name: 'Plain Observable OnPush CD' },
     { path: 'plain-signal-onpush-cd', name: 'Plain Signal OnPush CD' },
+    {path: 'derived-observable-default-cd-advanced', name: 'Derived Observable Default CD Advanced'},
+    {path: 'derived-signal-default-cd-advanced', name: 'Derived Signal Default CD Advanced'},
+    {path: 'derived-observable-onpush-cd-advanced', name: 'Derived Observable OnPush CD Advanced'},
+    {path: 'derived-signal-onpush-cd-advanced', name: 'Derived Signal OnPush CD Advanced'},
   ];
 }
