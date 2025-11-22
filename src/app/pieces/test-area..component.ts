@@ -41,6 +41,7 @@ export class TestArea implements AfterContentInit {
 
         if (count >= clicks) {
           clearInterval(intervalId);
+          this.testAreaService.toggleShowTestArea();
           console.log(`Done ${clicks} clicks`);
         }
       }, perClickDelay);
