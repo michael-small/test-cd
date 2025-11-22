@@ -1,12681 +1,3501 @@
 import { ProfileJson } from '../../../../pieces/profiler.type';
 
 export const AsyncPlainDefaultsProfile: ProfileJson | undefined = {
-  "version": 1,
-  "buffer": [
+  version: 1,
+  buffer: [
     {
-      "duration": 0.5,
-      "directives": [
+      duration: 0.5,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0.20000004768371582
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0.20000004768371582,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.09999990463256836
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.09999990463256836,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.10000014305114746,
-      "directives": [
+      duration: 0.10000014305114746,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
                 },
                 {
-                  "name": "_DerivedObservableDefaultCD",
-                  "changeDetection": 0
+                  name: '_DerivedObservableDefaultCD',
+                  changeDetection: 0,
                 },
                 {
-                  "name": "_DerivedSignalDefaultCD"
+                  name: '_DerivedSignalDefaultCD',
                 },
                 {
-                  "name": "_DerivedObservableOnpushCD"
+                  name: '_DerivedObservableOnpushCD',
                 },
                 {
-                  "name": "_DerivedSignalOnpushCD"
-                }
-              ]
-            }
+                  name: '_DerivedSignalOnpushCD',
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.10000014305114746
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.10000014305114746,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.2999997138977051,
-      "directives": [
+      duration: 0.2999997138977051,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.19999980926513672
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.19999980926513672,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0,
-      "directives": [
+      duration: 0,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.19999980926513672,
-      "directives": [
+      duration: 0.19999980926513672,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.19999980926513672
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.19999980926513672,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.3000001907348633,
-      "directives": [
+      duration: 0.3000001907348633,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0.10000014305114746
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0.10000014305114746,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.19999980926513672,
-      "directives": [
+      duration: 0.19999980926513672,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.09999990463256836
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.09999990463256836,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0,
-      "directives": [
+      duration: 0,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.09999990463256836,
-      "directives": [
+      duration: 0.09999990463256836,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.09999990463256836
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.09999990463256836,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.10000014305114746,
-      "directives": [
+      duration: 0.10000014305114746,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.10000014305114746
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.10000014305114746,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.2999999523162842,
-      "directives": [
+      duration: 0.2999999523162842,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.2999999523162842
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.2999999523162842,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0,
-      "directives": [
+      duration: 0,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0.09999990463256836
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0.09999990463256836,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.10000014305114746,
-      "directives": [
+      duration: 0.10000014305114746,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.10000014305114746
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.10000014305114746,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0.09999990463256836
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0.09999990463256836,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.10000014305114746
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.10000014305114746,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.09999990463256836,
-      "directives": [
+      duration: 0.09999990463256836,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.09999990463256836
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.09999990463256836,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.2999997138977051,
-      "directives": [
+      duration: 0.2999997138977051,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0.09999990463256836
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0.09999990463256836,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.09999990463256836
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.09999990463256836,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.09999990463256836,
-      "directives": [
+      duration: 0.09999990463256836,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.09999990463256836
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.09999990463256836,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.10000014305114746,
-      "directives": [
+      duration: 0.10000014305114746,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.10000014305114746
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.10000014305114746,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.10000014305114746,
-      "directives": [
+      duration: 0.10000014305114746,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.10000014305114746
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.10000014305114746,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.19999980926513672,
-      "directives": [
+      duration: 0.19999980926513672,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.19999980926513672
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.19999980926513672,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.2999999523162842,
-      "directives": [
+      duration: 0.2999999523162842,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.2999999523162842
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.2999999523162842,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.2999999523162842,
-      "directives": [
+      duration: 0.2999999523162842,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.2999999523162842
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.2999999523162842,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.2999997138977051,
-      "directives": [
+      duration: 0.2999997138977051,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.19999980926513672
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.19999980926513672,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.19999980926513672,
-      "directives": [
+      duration: 0.19999980926513672,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0.09999990463256836
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0.09999990463256836,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.09999990463256836
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.09999990463256836,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.3000001907348633,
-      "directives": [
+      duration: 0.3000001907348633,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0,
-      "directives": [
+      duration: 0,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.10000014305114746,
-      "directives": [
+      duration: 0.10000014305114746,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.2999999523162842,
-      "directives": [
+      duration: 0.2999999523162842,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.10000014305114746,
-      "directives": [
+      duration: 0.10000014305114746,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.10000014305114746
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.10000014305114746,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0,
-      "directives": [
+      duration: 0,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000028610229492,
-      "directives": [
+      duration: 0.20000028610229492,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000028610229492
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000028610229492,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.09999990463256836,
-      "directives": [
+      duration: 0.09999990463256836,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.09999990463256836
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.09999990463256836,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.19999980926513672,
-      "directives": [
+      duration: 0.19999980926513672,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0.09999990463256836
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0.09999990463256836,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.09999990463256836
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.09999990463256836,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.09999990463256836,
-      "directives": [
+      duration: 0.09999990463256836,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.09999990463256836
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.09999990463256836,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.3000001907348633,
-      "directives": [
+      duration: 0.3000001907348633,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0.09999990463256836
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0.09999990463256836,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
                 },
                 {
-                  "name": "_DerivedObservableDefaultCD",
-                  "changeDetection": 0
+                  name: '_DerivedObservableDefaultCD',
+                  changeDetection: 0,
                 },
                 {
-                  "name": "_DerivedSignalDefaultCD"
+                  name: '_DerivedSignalDefaultCD',
                 },
                 {
-                  "name": "_DerivedObservableOnpushCD"
+                  name: '_DerivedObservableOnpushCD',
                 },
                 {
-                  "name": "_DerivedSignalOnpushCD"
-                }
-              ]
-            }
+                  name: '_DerivedSignalOnpushCD',
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.10000014305114746
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.10000014305114746,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0,
-      "directives": [
+      duration: 0,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.40000009536743164,
-      "directives": [
+      duration: 0.40000009536743164,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0.10000014305114746
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0.10000014305114746,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.2999999523162842,
-      "directives": [
+      duration: 0.2999999523162842,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.2999999523162842
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.2999999523162842,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.39999961853027344,
-      "directives": [
+      duration: 0.39999961853027344,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.19999980926513672
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.19999980926513672,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.19999980926513672,
-      "directives": [
+      duration: 0.19999980926513672,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.19999980926513672
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.19999980926513672,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0,
-      "directives": [
+      duration: 0,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.19999980926513672,
-      "directives": [
+      duration: 0.19999980926513672,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.09999990463256836
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.09999990463256836,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.09999990463256836,
-      "directives": [
+      duration: 0.09999990463256836,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.09999990463256836
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.09999990463256836,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.10000014305114746,
-      "directives": [
+      duration: 0.10000014305114746,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.10000014305114746
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.10000014305114746,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.09999990463256836,
-      "directives": [
+      duration: 0.09999990463256836,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.09999990463256836
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.09999990463256836,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.09999990463256836,
-      "directives": [
+      duration: 0.09999990463256836,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.09999990463256836
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.09999990463256836,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.2999999523162842,
-      "directives": [
+      duration: 0.2999999523162842,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.2999999523162842
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.2999999523162842,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.10000014305114746,
-      "directives": [
+      duration: 0.10000014305114746,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.10000014305114746
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.10000014305114746,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0.09999990463256836
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0.09999990463256836,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.10000014305114746
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.10000014305114746,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.19999980926513672,
-      "directives": [
+      duration: 0.19999980926513672,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.09999990463256836
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.09999990463256836,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.10000014305114746,
-      "directives": [
+      duration: 0.10000014305114746,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.10000014305114746
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.10000014305114746,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.3000001907348633,
-      "directives": [
+      duration: 0.3000001907348633,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0,
-      "directives": [
+      duration: 0,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.10000014305114746,
-      "directives": [
+      duration: 0.10000014305114746,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.10000014305114746
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.10000014305114746,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.40000009536743164,
-      "directives": [
+      duration: 0.40000009536743164,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.09999990463256836,
-      "directives": [
+      duration: 0.09999990463256836,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.09999990463256836
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.09999990463256836,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.09999990463256836,
-      "directives": [
+      duration: 0.09999990463256836,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.09999990463256836
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.09999990463256836,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.10000014305114746,
-      "directives": [
+      duration: 0.10000014305114746,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.10000014305114746
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.10000014305114746,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.2999999523162842,
-      "directives": [
+      duration: 0.2999999523162842,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.3000001907348633,
-      "directives": [
+      duration: 0.3000001907348633,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.3000001907348633
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.3000001907348633,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.09999990463256836,
-      "directives": [
+      duration: 0.09999990463256836,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.09999990463256836
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.09999990463256836,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0.10000014305114746
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0.10000014305114746,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.09999990463256836
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.09999990463256836,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.09999990463256836,
-      "directives": [
+      duration: 0.09999990463256836,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.09999990463256836
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.09999990463256836,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.09999990463256836,
-      "directives": [
+      duration: 0.09999990463256836,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.09999990463256836
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.09999990463256836,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.10000014305114746,
-      "directives": [
+      duration: 0.10000014305114746,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.10000014305114746
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.10000014305114746,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.09999990463256836,
-      "directives": [
+      duration: 0.09999990463256836,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.09999990463256836
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.09999990463256836,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.2999999523162842,
-      "directives": [
+      duration: 0.2999999523162842,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.2999999523162842
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.2999999523162842,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.10000014305114746,
-      "directives": [
+      duration: 0.10000014305114746,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.10000014305114746
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.10000014305114746,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0,
-      "directives": [
+      duration: 0,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.3000001907348633,
-      "directives": [
+      duration: 0.3000001907348633,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.09999990463256836,
-      "directives": [
+      duration: 0.09999990463256836,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.09999990463256836
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.09999990463256836,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0.09999990463256836
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0.09999990463256836,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.10000014305114746
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.10000014305114746,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.10000014305114746,
-      "directives": [
+      duration: 0.10000014305114746,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.10000014305114746
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.10000014305114746,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.09999990463256836,
-      "directives": [
+      duration: 0.09999990463256836,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.09999990463256836
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.09999990463256836,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0,
-      "directives": [
+      duration: 0,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0.10000014305114746
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0.10000014305114746,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.09999990463256836
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.09999990463256836,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.20000004768371582,
-      "directives": [
+      duration: 0.20000004768371582,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.20000004768371582
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.20000004768371582,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.10000014305114746,
-      "directives": [
+      duration: 0.10000014305114746,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.10000014305114746
-            }
-          ]
-        }
-      ]
+              name: '_App',
+              changeDetection: 0.10000014305114746,
+            },
+          ],
+        },
+      ],
     },
     {
-      "duration": 0.40000033378601074,
-      "directives": [
+      duration: 0.40000033378601074,
+      directives: [
         {
-          "children": [
+          children: [
             {
-              "children": [],
-              "directives": [
+              children: [
                 {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterLink",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [],
-              "directives": [
-                {
-                  "name": "_RouterOutlet",
-                  "changeDetection": 0
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "children": [],
-                  "directives": [
+                  children: [],
+                  directives: [
                     {
-                      "name": "_TestArea",
-                      "changeDetection": 0
-                    }
-                  ]
-                }
+                      name: '_TestArea',
+                      changeDetection: 0,
+                    },
+                  ],
+                },
               ],
-              "directives": [
+              directives: [
                 {
-                  "name": "_PlainObservableDefaultCD",
-                  "changeDetection": 0
-                }
-              ]
-            }
+                  name: '_PlainObservableDefaultCD',
+                  changeDetection: 0,
+                },
+              ],
+            },
           ],
-          "directives": [
+          directives: [
             {
-              "name": "_App",
-              "changeDetection": 0.3000001907348633
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+              name: '_App',
+              changeDetection: 0.3000001907348633,
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};

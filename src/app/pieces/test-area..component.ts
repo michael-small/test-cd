@@ -32,7 +32,7 @@ export class TestArea implements AfterContentInit {
   showTestArea$ = this.testAreaService.showTestArea$
 
   clicks = 500
-  perClickDelay = 250
+  perClickDelay = 500
 
   toggleTestArea(clicks: number, perClickDelay: number) {
     this.testAreaService.toggleShowTestArea();

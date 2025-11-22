@@ -14,6 +14,7 @@ import { filter, map } from 'rxjs';
         <p><a routerLink="stats-250ms-250-clicks-complex">Stats 250ms 250 Clicks Complex</a></p>
         <p><a routerLink="stats-1000-clicks-250ms-complex">Stats 1000 Clicks 250ms Complex</a></p>
         <p><a routerLink="stats-250ms-500-clicks-complex-with-change">Stats 250ms 500 Clicks Complex With Change</a></p>
+        <p><a routerLink="stats-500-clicks-500pms-complex-with-change-2">Stats 500 Clicks 500ms Complex With Change 2</a></p>
       </div>
 
       @for (route of routes; track $index) {
@@ -68,5 +69,10 @@ export class App {
     {path: 'derived-signal-default-cd-with-changes', name: 'Derived Signal Default CD with Changes'},
     {path: 'derived-observable-onpush-cd-advanced-with-changes', name: 'Derived Observable OnPush CD Advanced with Changes'},
     {path: 'derived-signal-onpush-cd-advanced-with-changes', name: 'Derived Signal OnPush CD Advanced with Changes'},
+    // complex with changes-2
+    {path: 'derived-observable-default-cd-with-changes-2', name: 'Derived Observable Default CD with Changes 2'},
+    {path: 'derived-signal-default-cd-with-changes-2', name: 'Derived Signal Default CD with Changes 2'},
+    {path: 'derived-observable-onpush-cd-advanced-with-changes-2', name: 'Derived Observable OnPush CD Advanced with Changes 2'},
+    {path: 'derived-signal-onpush-cd-advanced-with-changes-2', name: 'Derived Signal OnPush CD Advanced with Changes 2'},
   ];
 }
