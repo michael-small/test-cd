@@ -34,6 +34,12 @@ import { Tally } from '../../../pieces/tally.type';
         <app-tallied-data [data]="defaultDerivedSignal" [type]="'testArea'" />
         <app-tallied-data [data]="defaultPlainObservable" [type]="'testArea'" />
         <app-tallied-data [data]="defaultPlainSignal" [type]="'testArea'" />
+
+        <h4>Percentage</h4>
+        <app-tallied-data [data]="defaultDerivedObservable" [type]="'percentage'" />
+        <app-tallied-data [data]="defaultDerivedSignal" [type]="'percentage'" />
+        <app-tallied-data [data]="defaultPlainObservable" [type]="'percentage'" />
+        <app-tallied-data [data]="defaultPlainSignal" [type]="'percentage'" />
       </section>
 
       <section>
@@ -56,6 +62,12 @@ import { Tally } from '../../../pieces/tally.type';
         <app-tallied-data [data]="onPushDerivedSignal" [type]="'testArea'" />
         <app-tallied-data [data]="onPushPlainObservable" [type]="'testArea'" />
         <app-tallied-data [data]="onPushPlainSignal" [type]="'testArea'" />
+
+        <h4>Percentage</h4>
+        <app-tallied-data [data]="onPushDerivedObservable" [type]="'percentage'" />
+        <app-tallied-data [data]="onPushDerivedSignal" [type]="'percentage'" />
+        <app-tallied-data [data]="onPushPlainObservable" [type]="'percentage'" />
+        <app-tallied-data [data]="onPushPlainSignal" [type]="'percentage'" />
       </section>
     </section>
   `,
