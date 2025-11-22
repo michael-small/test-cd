@@ -14,7 +14,7 @@ import { DerivedSignalDefaultCDAdvanced } from './more-complex/defaultCD/derived
 import { DerivedObservableOnpushCDAdvanced } from './more-complex/onPushCD/derived/observable/derived-observable.component';
 import { DerivedSignalOnpushCDAdvanced } from './more-complex/onPushCD/derived/signal/derived-signal.component';
 import { Stats250ms250ClicksComplex } from './data/more_complex_250ms-250-clicks/stats-250ms-250-clicks-complex';
-import { StatsMoreComplex250ms1000Clicks } from './data/more_complex_250ms-1000-clicks/stats-template';
+import { StatsMoreComplex250ms1000Clicks } from './data/more_complex_250ms-1000-clicks/stats-more-complex-250ms-1000-clicks';
 import { Stats250ms500ClicksComplexWithChange } from './data/250ms-500-clicks-complex-with-change/stats-250ms-500clicks-complex-with-change';
 import { DerivedObservableOnpushCDAdvancedWithChanges } from './more-complex-with-changes/onPushCD/derived/observable/derived-observable.component';
 import { DerivedSignalOnpushCDAdvancedWithChanges } from './more-complex-with-changes/onPushCD/derived/signal/derived-signal.component';

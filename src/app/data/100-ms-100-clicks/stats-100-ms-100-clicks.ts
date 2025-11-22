@@ -14,19 +14,43 @@ import { Tally } from '../../pieces/tally.type';
   selector: 'app-stats-100-ms-100-clicks',
   template: `
     <section>
-      <p>Default CD</p>
-      <app-tallied-data [data]="defaultDerivedObservable" />
-      <app-tallied-data [data]="defaultDerivedSignal" />
+      <section>
+        <h3>Default CD</h3>
+        <h4>Directives</h4>
+        <app-tallied-data [data]="defaultDerivedObservable" [type]="'directives'" />
+        <app-tallied-data [data]="defaultDerivedSignal" [type]="'directives'" />
+        <app-tallied-data [data]="defaultPlainObservable" [type]="'directives'" />
+        <app-tallied-data [data]="defaultPlainSignal" [type]="'directives'" />
+        <h4>Duration</h4>
+        <app-tallied-data [data]="defaultDerivedObservable" [type]="'duration'" />
+        <app-tallied-data [data]="defaultDerivedSignal" [type]="'duration'" />
+        <app-tallied-data [data]="defaultPlainObservable" [type]="'duration'" />
+        <app-tallied-data [data]="defaultPlainSignal" [type]="'duration'" />
+        <h4>Test Area</h4>
+        <app-tallied-data [data]="defaultDerivedObservable" [type]="'testArea'" />
+        <app-tallied-data [data]="defaultDerivedSignal" [type]="'testArea'" />
+        <app-tallied-data [data]="defaultPlainObservable" [type]="'testArea'" />
+        <app-tallied-data [data]="defaultPlainSignal" [type]="'testArea'" />
+      </section>
 
-      <app-tallied-data [data]="defaultPlainObservable" />
-      <app-tallied-data [data]="defaultPlainSignal" />
-
-      <p>OnPush CD</p>
-      <app-tallied-data [data]="onPushDerivedObservable" />
-      <app-tallied-data [data]="onPushDerivedSignal" />
-
-      <app-tallied-data [data]="onPushPlainObservable" />
-      <app-tallied-data [data]="onPushPlainSignal" />
+      <section>
+        <h3>OnPush CD</h3>
+        <h4>Directives</h4>
+        <app-tallied-data [data]="onPushDerivedObservable" [type]="'directives'" />
+        <app-tallied-data [data]="onPushDerivedSignal" [type]="'directives'" />
+        <app-tallied-data [data]="onPushPlainObservable"  [type]="'directives'" />
+        <app-tallied-data [data]="onPushPlainSignal" [type]="'directives'" />
+        <h4>Duration</h4>
+        <app-tallied-data [data]="onPushDerivedObservable" [type]="'duration'" />
+        <app-tallied-data [data]="onPushDerivedSignal" [type]="'duration'" />
+        <app-tallied-data [data]="onPushPlainObservable" [type]="'duration'" />
+        <app-tallied-data [data]="onPushPlainSignal" [type]="'duration'" />
+        <h4>Test Area</h4>
+        <app-tallied-data [data]="onPushDerivedObservable" [type]="'testArea'" />
+        <app-tallied-data [data]="onPushDerivedSignal" [type]="'testArea'" />
+        <app-tallied-data [data]="onPushPlainObservable" [type]="'testArea'" />
+        <app-tallied-data [data]="onPushPlainSignal" [type]="'testArea'" />
+      </section>
     </section>
   `,
   imports: [TalliedData],

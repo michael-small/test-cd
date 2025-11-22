@@ -1,14 +1,28 @@
 import { Component, computed, effect, input } from '@angular/core';
 import { ProfileJson } from './profiler.type';
-import { tallyProfilerDirectives } from './tally-profile';
+import { tallyProfilerDirectives, tallyProfilerDirectivesTestArea, tallyProfilerDuration } from './tally-profile';
 import { JsonPipe } from '@angular/common';
 
 @Component({
   selector: 'app-tallied-data',
-  template: ` <p>{{ talliedData() | json }}</p> `,
+  template: ` 
+    @switch (type()) {
+      @case('directives') {
+        <p>{{ talliedDataDirectives() | json }}</p>
+      }
+      @case('duration') {
+        <p>{{ talliedDataDuration() | json }}</p>
+      }
+      @case('testArea')  {
+        <p>{{ talliedDataTestArea() | json }}</p>
+      }
+    }
+  `,
   imports: [JsonPipe],
 })
 export class TalliedData {
+  type = input.required<'directives' | 'duration' | 'testArea'>();
+
   readonly data = input.required<{
     cdProfile: ProfileJson | undefined;
     primitive: 'async' | 'signals';
@@ -16,8 +30,17 @@ export class TalliedData {
     derived: boolean;
   }>();
 
-  readonly talliedData = computed(() => {
+  readonly talliedDataDirectives = computed(() => {
     const data = this.data();
     return tallyProfilerDirectives(data.cdProfile, data.primitive, data.changeDetection, data.derived);
+  });
+
+    readonly talliedDataDuration = computed(() => {
+    const data = this.data();
+    return tallyProfilerDuration(data.cdProfile, data.primitive, data.changeDetection, data.derived);
+  });
+    readonly talliedDataTestArea = computed(() => {
+    const data = this.data();
+    return tallyProfilerDirectivesTestArea(data.cdProfile, data.primitive, data.changeDetection, data.derived);
   });
 }
