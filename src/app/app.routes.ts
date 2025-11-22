@@ -15,6 +15,11 @@ import { DerivedObservableOnpushCDAdvanced } from './more-complex/onPushCD/deriv
 import { DerivedSignalOnpushCDAdvanced } from './more-complex/onPushCD/derived/signal/derived-signal.component';
 import { Stats250ms250ClicksComplex } from './data/more_complex_250ms-250-clicks/stats-250ms-250-clicks-complex';
 import { StatsMoreComplex250ms1000Clicks } from './data/more_complex_250ms-1000-clicks/stats-template';
+import { Stats250ms500ClicksComplexWithChange } from './data/250ms-500-clicks-complex-with-change/stats-template';
+import { DerivedObservableOnpushCDAdvancedWithChanges } from './more-complex-with-changes/onPushCD/derived/observable/derived-observable.component';
+import { DerivedSignalOnpushCDAdvancedWithChanges } from './more-complex-with-changes/onPushCD/derived/signal/derived-signal.component';
+import { DerivedObservableDefaultCDAdvancedWithChanges } from './more-complex-with-changes/defaultCD/derived/observable/derived-observable.component';
+import { DerivedSignalDefaultCDAdvancedWithChanges } from './more-complex-with-changes/defaultCD/derived/signal/derived-signal.component';
 
 export const routes: Routes = [
   {
@@ -24,6 +29,7 @@ export const routes: Routes = [
       {path: 'stats-1000-clicks-250ms-per', component: Stats250Ms1000Clicks},
       {path: 'stats-250ms-250-clicks-complex', component: Stats250ms250ClicksComplex},
       {path: 'stats-1000-clicks-250ms-complex', component: StatsMoreComplex250ms1000Clicks},
+      {path: 'stats-250ms-500-clicks-complex-with-change', component: Stats250ms500ClicksComplexWithChange},
       // Basic
       {
         title: 'Derived Observable Default CD',
@@ -86,6 +92,28 @@ export const routes: Routes = [
         path: 'derived-signal-onpush-cd-advanced',
         component: DerivedSignalOnpushCDAdvanced,
       },
+      // With Changes
+      {
+        title: 'Derived Observable Default CD with Changes',
+        path: 'derived-observable-default-cd-with-changes',
+        component: DerivedObservableDefaultCDAdvancedWithChanges,
+      },
+      {
+        title: 'Derived Signal Default CD with Changes',
+        path: 'derived-signal-default-cd-with-changes',
+        component: DerivedSignalDefaultCDAdvancedWithChanges,  
+      },
+      {
+        title: 'Derived Observable OnPush CD Advanced with Changes',
+        path: 'derived-observable-onpush-cd-advanced-with-changes',
+        component: DerivedObservableOnpushCDAdvancedWithChanges,
+      },
+      {
+        title: 'Derived Signal OnPush CD Advanced with Changes',
+        path: 'derived-signal-onpush-cd-advanced-with-changes',
+        component: DerivedSignalOnpushCDAdvancedWithChanges,  
+      },
+
     ],
   },
 ];
