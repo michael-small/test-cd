@@ -1,4 +1,6 @@
-import { AfterContentInit, Component, ContentChild, ElementRef, ViewChild } from '@angular/core';
+import { AfterContentInit, Component, ContentChild, ElementRef, inject, Injectable, ViewChild } from '@angular/core';
+import { TestAreaService } from './test-area-service';
+import { AsyncPipe } from '@angular/common';
 
 @Component({
   selector: 'app-test-area',
@@ -6,26 +8,29 @@ import { AfterContentInit, Component, ContentChild, ElementRef, ViewChild } from
     <button (click)="toggleTestArea(clicks, perClickDelay)">Show test area</button>
     <p>{{clicks}} clicks with {{perClickDelay}} ms delay</p>
 
-    @if (showTestArea) {
+    @if (showTestArea$ | async) {
       <p>
         <ng-content />
       </p>
       <button #testButton (click)="btnFn()">Button</button>
     }
   `,
+  imports: [AsyncPipe],
   styles: ``,
 })
 export class TestArea implements AfterContentInit {
+  testAreaService = inject(TestAreaService);
+
   @ViewChild('testButton') btn: ElementRef | undefined;
   @ContentChild('txt') txt: ElementRef | undefined;
 
-  showTestArea = false;
+  showTestArea$ = this.testAreaService.showTestArea$
 
   clicks = 500
   perClickDelay = 250
 
   toggleTestArea(clicks: number, perClickDelay: number) {
-    this.showTestArea = !this.showTestArea;
+    this.testAreaService.toggleShowTestArea();
 
     let count = 0;
     setTimeout(() => {

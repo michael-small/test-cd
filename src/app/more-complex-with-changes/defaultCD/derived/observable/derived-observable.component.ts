@@ -1,7 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { TestArea } from '../../../../pieces/test-area..component';
 import { AsyncPipe } from '@angular/common';
-import { BehaviorSubject, combineLatest, interval, map, of } from 'rxjs';
+import { BehaviorSubject, combineLatest, EMPTY, filter, interval, map, of, switchMap } from 'rxjs';
+import { TestAreaService } from '../../../../pieces/test-area-service';
 
 @Component({
   selector: 'app-derived-observable-default-CD-with-changes',
@@ -48,8 +49,11 @@ export class DerivedObservableDefaultCDAdvancedWithChanges {
     }),
   )
 
-  constructor() {
-    interval(5000).subscribe(() => {
+  // eslint-disable-next-line @angular-eslint/prefer-inject
+  constructor(private testAreaService: TestAreaService) {
+    testAreaService.showTestArea$.pipe(
+      switchMap(show => show ? interval(5000) : EMPTY)
+    ).subscribe(() => {
       this.obs1$.next(this.obs1$.value + 1);
       this.obs2$.next(this.obs2$.value + 1);
       this.obs3$.next(this.obs3$.value + 'x');

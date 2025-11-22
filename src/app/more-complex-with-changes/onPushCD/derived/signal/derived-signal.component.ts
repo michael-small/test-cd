@@ -1,6 +1,7 @@
 import { ChangeDetectionStrategy, Component, computed, signal } from '@angular/core';
 import { TestArea } from '../../../../pieces/test-area..component';
-import { interval } from 'rxjs';
+import { EMPTY, interval, switchMap } from 'rxjs';
+import { TestAreaService } from '../../../../pieces/test-area-service';
 
 @Component({
   selector: 'app-derived-signal-onpush-CD-with-changes',
@@ -42,8 +43,11 @@ export class DerivedSignalOnpushCDAdvancedWithChanges {
     return `${this.signal9() + this.signal10()}, ${this.signal11()}, ${this.signal12()}`
   })
 
-    constructor() {
-      interval(5000).subscribe(() => {
+  // eslint-disable-next-line @angular-eslint/prefer-inject
+  constructor(private testAreaService: TestAreaService) {
+    testAreaService.showTestArea$.pipe(
+      switchMap(show => show ? interval(5000) : EMPTY)
+    ).subscribe(() => {
         this.signal1.set(this.signal1() + 1);
         this.signal2.set(this.signal2() + 1);
         this.signal3.set(this.signal3() + 'x');
