@@ -24,6 +24,10 @@ import { Tally } from '../../pieces/tally.type';
         <h4>Test Area</h4>
         <app-tallied-data [data]="defaultDerivedObservable" [type]="'testArea'" />
         <app-tallied-data [data]="defaultDerivedSignal" [type]="'testArea'" />
+
+        <h4>Percentage</h4>
+        <app-tallied-data [data]="defaultDerivedObservable" [type]="'percentage'" />
+        <app-tallied-data [data]="defaultDerivedSignal" [type]="'percentage'" />
       </section>
 
       <section>
@@ -40,6 +44,10 @@ import { Tally } from '../../pieces/tally.type';
         <h4>Test Area</h4>
         <app-tallied-data [data]="onPushDerivedObservable" [type]="'testArea'" />
         <app-tallied-data [data]="onPushDerivedSignal" [type]="'testArea'" />
+
+        <h4>Percentage</h4>
+        <app-tallied-data [data]="onPushDerivedObservable" [type]="'percentage'" />
+        <app-tallied-data [data]="onPushDerivedSignal" [type]="'percentage'" />
       </section>
     </section>
   `,
