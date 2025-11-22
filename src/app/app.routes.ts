@@ -34,6 +34,7 @@ export const routes: Routes = [
       {path: 'stats-250ms-250-clicks-complex', component: Stats250ms250ClicksComplex},
       {path: 'stats-1000-clicks-250ms-complex', component: StatsMoreComplex250ms1000Clicks},
       {path: 'stats-250ms-500-clicks-complex-with-change', component: Stats250ms500ClicksComplexWithChange},
+      {path: 'stats-500-clicks-500pms-complex-with-change-2', component: Stats250ms500ClicksComplexWithChange},
       // Basic
       {
         title: 'Derived Observable Default CD',
