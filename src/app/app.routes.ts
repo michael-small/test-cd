@@ -25,6 +25,7 @@ import { DerivedSignalDefaultCDAdvancedWithChanges2 } from './more-complex-with-
 import { DerivedObservableOnpushCDAdvancedWithChanges2 } from './more-complex-with-changes-2/onPushCD/derived/observable/derived-observable.component';
 import { DerivedSignalOnpushCDAdvancedWithChanges2 } from './more-complex-with-changes-2/onPushCD/derived/signal/derived-signal.component';
 import { Stats500500ClicksComplexWithChange2 } from './data/more-complex-with-changes-2/stats-template';
+import { Stats500500ClicksComplexWithChange3 } from './data/more-complex-with-changes-3/stats-complex-500-500-changes-3';
 
 export const routes: Routes = [
   {
@@ -36,6 +37,7 @@ export const routes: Routes = [
       {path: 'stats-1000-clicks-250ms-complex', component: StatsMoreComplex250ms1000Clicks},
       {path: 'stats-250ms-500-clicks-complex-with-change', component: Stats250ms500ClicksComplexWithChange},
       {path: 'stats-500-clicks-500ms-complex-with-change-2', component: Stats500500ClicksComplexWithChange2},
+      {path: 'stats-500-clicks-500ms-complex-with-change-3', component: Stats500500ClicksComplexWithChange3},
       // Basic
       {
         title: 'Derived Observable Default CD',
@@ -140,7 +142,6 @@ export const routes: Routes = [
         path: 'derived-signal-onpush-cd-advanced-with-changes-2',
         component: DerivedSignalOnpushCDAdvancedWithChanges2,  
       },
-
     ],
   },
 ];
