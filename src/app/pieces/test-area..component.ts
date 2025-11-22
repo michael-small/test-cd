@@ -9,14 +9,19 @@ import { AsyncPipe } from '@angular/common';
     <p>{{clicks}} clicks with {{perClickDelay}} ms delay</p>
 
     @if (showTestArea$ | async) {
-      <p>
+      <p id="content">
         <ng-content />
       </p>
       <button #testButton (click)="btnFn()">Button</button>
     }
   `,
   imports: [AsyncPipe],
-  styles: ``,
+  styles: `
+    #content {
+      word-wrap: break-word;
+      max-width: 800px;
+    }
+  `,
 })
 export class TestArea implements AfterContentInit {
   testAreaService = inject(TestAreaService);
