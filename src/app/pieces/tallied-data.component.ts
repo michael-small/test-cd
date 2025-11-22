@@ -17,7 +17,7 @@ import { JsonPipe } from '@angular/common';
         <p>{{ talliedDataTestArea() | json }}</p>
       }
       @case('percentage')  {
-        <p>{{ talliedComponentPercentage() | json }}</p>
+        <p>{{ talliedDataPercentage() | json }}</p>
       }
     }
   `,
@@ -47,8 +47,9 @@ export class TalliedData {
     return tallyProfilerDirectivesTestArea(data.cdProfile, data.primitive, data.changeDetection, data.derived);
   });
 
-      readonly talliedComponentPercentage = computed(() => {
+  readonly talliedDataPercentage = computed(() => {
     const data = this.data();
-    return tallyProfilerPercentage(data.cdProfile, data.primitive, data.changeDetection, data.derived);
+    const {time: percent, samples, ...rest } = tallyProfilerPercentage(data.cdProfile, data.primitive, data.changeDetection, data.derived);
+    return {...rest, percent, samples };
   });
 }
