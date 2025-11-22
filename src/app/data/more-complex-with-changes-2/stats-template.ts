@@ -7,7 +7,7 @@ import { TalliedData } from '../../pieces/tallied-data.component';
 import { Tally } from '../../pieces/tally.type';
 
 @Component({
-  selector: 'app-stats-template',
+  selector: 'app-stats-500-clicks-500pms-complex-with-change-2',
   template: `
     <section>
       <em>TODO template</em>
@@ -48,7 +48,7 @@ import { Tally } from '../../pieces/tally.type';
   imports: [TalliedData],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class StatsTemplate {
+export class Stats500500ClicksComplexWithChange2 {
   // default
   defaultDerivedObservable: Tally = {
     cdProfile: AsyncDerivedDefaultsProfile,
