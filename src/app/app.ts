@@ -75,5 +75,10 @@ export class App {
     {path: 'derived-signal-default-cd-with-changes-2', name: 'Derived Signal Default CD with Changes 2'},
     {path: 'derived-observable-onpush-cd-advanced-with-changes-2', name: 'Derived Observable OnPush CD Advanced with Changes 2'},
     {path: 'derived-signal-onpush-cd-advanced-with-changes-2', name: 'Derived Signal OnPush CD Advanced with Changes 2'},
+    // multi comp
+    {path: 'derived-observable-default-cd-with-changes-multi-component', name: 'Derived Observable Default CD with Changes Multi Component'},
+    {path: 'derived-signal-default-cd-with-changes-multi-component', name: 'Derived Signal Default CD with Changes Multi Component'},
+    {path: 'derived-observable-onpush-cd-advanced-with-changes-multi-component', name: 'Derived Observable OnPush CD Advanced with Changes Multi Component'},
+    {path: 'derived-signal-onpush-cd-advanced-with-changes-multi-component', name: 'Derived Signal OnPush CD Advanced with Changes Multi Component'},
   ];
 }

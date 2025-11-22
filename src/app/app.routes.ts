@@ -26,6 +26,10 @@ import { DerivedObservableOnpushCDAdvancedWithChanges2 } from './more-complex-wi
 import { DerivedSignalOnpushCDAdvancedWithChanges2 } from './more-complex-with-changes-2/onPushCD/derived/signal/derived-signal.component';
 import { Stats500500ClicksComplexWithChange2 } from './data/more-complex-with-changes-2/stats-template';
 import { Stats500500ClicksComplexWithChange3 } from './data/more-complex-with-changes-3/stats-complex-500-500-changes-3';
+import { DerivedObservableDefaultCDAdvancedWithChangesMulticomponent } from './more-complex-with-changes-multi-comp/defaultCD/derived/observable/derived-observable.component';
+import { DerivedSignalDefaultCDAdvancedWithChangesMulticomponent } from './more-complex-with-changes-multi-comp/defaultCD/derived/signal/derived-signal.component';
+import { DerivedObservableOnpushCDAdvancedWithChangesMulticomponent } from './more-complex-with-changes-multi-comp/onPushCD/derived/observable/derived-observable.component';
+import { DerivedSignalOnpushCDAdvancedWithChangesMulticomponent } from './more-complex-with-changes-multi-comp/onPushCD/derived/signal/derived-signal.component';
 
 export const routes: Routes = [
   {
@@ -141,6 +145,27 @@ export const routes: Routes = [
         title: 'Derived Signal OnPush CD Advanced with Changes 2',
         path: 'derived-signal-onpush-cd-advanced-with-changes-2',
         component: DerivedSignalOnpushCDAdvancedWithChanges2,  
+      },
+      // multi comp
+      {
+        title: 'Derived Observable Default CD with Changes Multi Component',
+        path: 'derived-observable-default-cd-with-changes-multi-component',
+        component: DerivedObservableDefaultCDAdvancedWithChangesMulticomponent,
+      },
+      {
+        title: 'Derived Signal Default CD with Changes Multi Component',
+        path: 'derived-signal-default-cd-with-changes-multi-component',
+        component: DerivedSignalDefaultCDAdvancedWithChangesMulticomponent,
+      },
+      {
+        title: 'Derived Observable OnPush CD Advanced with Changes Multi Component',
+        path: 'derived-observable-onpush-cd-advanced-with-changes-multi-component',
+        component: DerivedObservableOnpushCDAdvancedWithChangesMulticomponent,
+      },
+      {
+        title: 'Derived Signal OnPush CD Advanced with Changes Multi Component',
+        path: 'derived-signal-onpush-cd-advanced-with-changes-multi-component',
+        component: DerivedSignalOnpushCDAdvancedWithChangesMulticomponent,
       },
     ],
   },
