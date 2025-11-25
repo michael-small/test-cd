@@ -15,7 +15,7 @@ import { ListItemObservableComponent } from '../../../list-item-observable.compo
         {{obs5$ | async}} + {{obs6$ | async}} and {{obs7$ | async}} with {{obs8$ | async}} all together is {{derivedObservable2$ | async}}
         {{obs9$ | async}} + {{obs10$ | async}} and {{obs11$ | async}} with {{obs12$ | async}} all together is {{derivedObservable3$ | async}}
       </span>
-      <app-list-item-observable [inputVal$]="obs1$" />
+      <app-list-item-observable [inputVal]="(obs1$ | async) ?? 0" />
     </app-test-area>
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,

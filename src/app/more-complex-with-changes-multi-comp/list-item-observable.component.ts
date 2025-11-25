@@ -1,6 +1,7 @@
 import { AsyncPipe } from '@angular/common';
 import { Component, computed, Input, input, signal } from '@angular/core';
-import { combineLatest, map, Observable, of } from 'rxjs';
+import { toObservable } from '@angular/core/rxjs-interop';
+import { BehaviorSubject, combineLatest, map, Observable, of } from 'rxjs';
 
 @Component({
   selector: 'app-list-item-observable',
@@ -16,7 +17,9 @@ import { combineLatest, map, Observable, of } from 'rxjs';
   imports: [AsyncPipe],
 })
 export class ListItemObservableComponent {
-  @Input({ required: true }) inputVal$!: Observable<number>;
+  inputVal = input.required<number>();
+
+  inputVal$ = toObservable(this.inputVal);
 
   value1$ = of(3);
   value2$ = of(5);
