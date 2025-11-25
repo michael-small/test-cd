@@ -16,6 +16,7 @@ import { filter, map } from 'rxjs';
         <p><a routerLink="stats-250ms-500-clicks-complex-with-change">Stats 250ms 500 Clicks Complex With Change</a></p>
         <p><a routerLink="stats-500-clicks-500ms-complex-with-change-2">Stats 500 Clicks 500ms Complex With Change 2</a></p>
         <p><a routerLink="stats-500-clicks-500ms-complex-with-change-3">Stats 500 Clicks 500ms Complex With Change 3</a></p>
+        <p><a routerLink="stats-500-500-multi-component">Stats 500 500 Multi Component</a></p>
       </div>
 
       @for (route of routes; track $index) {

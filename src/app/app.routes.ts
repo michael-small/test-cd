@@ -30,6 +30,7 @@ import { DerivedObservableDefaultCDAdvancedWithChangesMulticomponent } from './m
 import { DerivedSignalDefaultCDAdvancedWithChangesMulticomponent } from './more-complex-with-changes-multi-comp/defaultCD/derived/signal/derived-signal.component';
 import { DerivedObservableOnpushCDAdvancedWithChangesMulticomponent } from './more-complex-with-changes-multi-comp/onPushCD/derived/observable/derived-observable.component';
 import { DerivedSignalOnpushCDAdvancedWithChangesMulticomponent } from './more-complex-with-changes-multi-comp/onPushCD/derived/signal/derived-signal.component';
+import { Stats500500ComplexChildren } from './data/complex-500-500-multi/stats-500-500-multi';
 
 export const routes: Routes = [
   {
@@ -42,6 +43,7 @@ export const routes: Routes = [
       {path: 'stats-250ms-500-clicks-complex-with-change', component: Stats250ms500ClicksComplexWithChange},
       {path: 'stats-500-clicks-500ms-complex-with-change-2', component: Stats500500ClicksComplexWithChange2},
       {path: 'stats-500-clicks-500ms-complex-with-change-3', component: Stats500500ClicksComplexWithChange3},
+      {path: 'stats-500-500-multi-component', component: Stats500500ComplexChildren},
       // Basic
       {
         title: 'Derived Observable Default CD',
